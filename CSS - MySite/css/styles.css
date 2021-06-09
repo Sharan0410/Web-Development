@@ -1,0 +1,130 @@
+.top-container {
+  background-color: #66bfbf;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #00ead3
+}
+p{
+    line-height: 2;
+}
+.skill-row{
+  width:50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+
+}
+.code{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.code2{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #00ead3;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00ead3
+}
+
+.fre {
+  text-decoration: underline;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.bottom-container {
+background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+hr{
+  border: dotted #EAF6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.msg{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11bff9;
+  background-image: -webkit-linear-gradient(top, #11bff9, #1b8dd4);
+  background-image: -moz-linear-gradient(top, #11bff9, #1b8dd4);
+  background-image: -ms-linear-gradient(top, #11bff9, #1b8dd4);
+  background-image: -o-linear-gradient(top, #11bff9, #1b8dd4);
+  background-image: linear-gradient(to bottom, #11bff9, #1b8dd4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #38a9f0;
+  background-image: -webkit-linear-gradient(top, #38a9f0, #1f9ef2);
+  background-image: -moz-linear-gradient(top, #38a9f0, #1f9ef2);
+  background-image: -ms-linear-gradient(top, #38a9f0, #1f9ef2);
+  background-image: -o-linear-gradient(top, #38a9f0, #1f9ef2);
+  background-image: linear-gradient(to bottom, #38a9f0, #1f9ef2);
+  text-decoration: none;
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EA6969;
+}
+.copy{
+  color: #EA6969;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
