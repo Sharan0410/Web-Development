@@ -63,11 +63,11 @@ h1{
   }
   @media screen and (max-width: 600px) {
     .col-lg-6{
-      width: 100;
+      width: 50%;
     }
 
     .col-lg-6 .card{
-        width: 100;
+        width: 50%;
       }
   }
   

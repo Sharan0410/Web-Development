@@ -3,87 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book a truck</title>
-    <link rel="stylesheet" href="index.css">
-    <style>
-        .input-icons img {
-            position: absolute;
-        }
-          
-        .input-icons {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-          
-        .icon {
-            padding: 10px;
-        }
-          
-        .input-field {
-            width: 100%;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body class="b">
-    <div class="row">
-        <div class="column left" >
-          <div class="title">
-              <img src="Vendor_logo.png" alt="logo">
-              <h1>BOOK TRUCK</h1>
-          </div>
-        </div>
-        <div class="column right" >
-          
-          
-              <div class="card">
-                  <h3>Register</h3>
-                  <div class="container">
-                    <form action="" method="post">
-                        <div class="input-icons">
-                            <label>Email Address :</label><br>
-                            <img src="Icon feather-user.png" alt="" class="icon">
-                            <input type="email"class="det"name="" required="" src="Icon feather-user.png"><br>
-                            <label>Enter Password :</label><br>
-                            <img src="Icon material-vpn-key.png" alt="" class="icon">
-                            <input type="password" class="det"name="" required="">
-                            <br>
-                            <label>Re-enter Password :</label><br>
-                            <img src="Icon material-vpn-key.png" alt="" class="icon">
-                            
-                            <input type="password"class="det" name="" required=""><br>
-                            <label>Mobile Number :</label><br>
-                            <img src="Image 1.png" alt="" class="icon">
-                            <img src="Icon feather-phone.png" alt="" class="icon">
-                             <input type="tel" name="" class="det"required=""><br>
-                        </div>
-                        
-                         <input type="checkbox" name="" id="">
-                        <label for="">I agree to <b style="color: limegreen;">Terms and Conditions</b></label><br>
-                         <input type="checkbox" name="" id="">
-                        <label for="">I agree to<b style="color: limegreen;"> Privacy Policy</b></label><br>
-                              <h1></h1>
-                        <input type="image" src="Icon feather-arrow-right.png" name="Register" class="btn">
-                        <footer style="text-align: center;">
-                            <h1>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Truck</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 
-                                  
-                            </h1>
-                            Already Have a account ?<b style="color: limegreen;">Sign In</b>
-                        </footer>
-                      </form>
-                      
-                  </div>
-                  
-                  
-          
-                </div>
-          
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class="b"> 
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="Vendor_logo.png" alt="logo">
+              <h1>BOOK TRUCK</h1>
         </div>
-      </div>
-   
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Register</h3>
+                </div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <label>Email Address :</label><br>
+                        
+                        <input type="email" class ="txt"name="" required="" src="Icon feather-user.png"><br>
+                        <label>Enter Password :</label><br>
+                        
+                        <input type="password"class ="txt" name="" required="">
+                        <br>
+                        <label>Re-enter Password :</label><br>
+                       
+                        
+                        <input type="password" class ="txt"name="" required=""><br>
+                        <label>Mobile Number :</label><br>
+                        
+                       
+                         <input type="tel"class ="txt" name="" required><br>
+
+                         <input type="checkbox" name="" id="">
+                         <label for="">I agree to <b style="color: limegreen;">Terms and Conditions</b></label><br>
+                          <input type="checkbox" name="" id="">
+                         <label for="">I agree to<b style="color: limegreen;"> Privacy Policy</b></label><br>
+                               <h1></h1>
+                         <button class="btn">Register</button>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    Already have a account SignIn
+                </div>
+              </div>
+        </div>
+    </div>
 </body>
 </html>
