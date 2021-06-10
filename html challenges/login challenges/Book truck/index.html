@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck</title>
+    <!--Css Files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- JS files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+<body style="background: url(/images/Intersection\ 2.png) no-repeat;">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="images/Vendor_logo.png" alt="truck" srcset="">
+            <h1 id="cn">BOOK TRUCK</h1>
+        </div>
+        <div class="col-lg-6">
+            <div class="flip-container">
+                <div class="flipper" id="flipper">
+                    <div class="front">
+                        <h1 class="title">Login</h1>
+                        <form>
+                            <input type="email" placeholder="Enter Email-ID" />
+                            <input type="password" placeholder="Password" />
+                            <input type="button" value="Login" />
+                        </form>
+                        <a class="flipbutton" id="loginButton" href="#">Create my account →</a>
+                    </div>
+            
+                    <div class="back">
+                        <h1 class="title">Register</h1>
+                        <form>
+                            <input type="email" placeholder="Enter Email-ID" />
+                            <input type="password" placeholder="Password" />
+                            
+                            <input type="password" placeholder="Re-enter Password" />
+                            
+                            <input type="checkbox" name="t&c" id="">
+                            <label >I agree to the <b>Terms and Conditions</b> </label><br>
+                            <input type="checkbox" name="pp" id="">
+                            <label for="">I agree to the <b>privacy policy</b> </label>
+                            <input type="button" value="Sign up" />
+                        </form>
+
+                        <a class="flipbutton" id="registerButton" href="#">Login to my account →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/flip.js"></script>
+</body>
+</html>
