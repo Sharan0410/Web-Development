@@ -1,0 +1,32 @@
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+img#user{
+    padding: 20px;
+    color: green;
+    width: 25px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 377.95275591px;
+    height: 52.913385827px;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid lightgreen;
+}
+  
+.input-icons img {
+    position: absolute;
+}
+
+img.lock{
+
+    padding: 30px 30px 30px 20px;
+    color: green;
+    width: 30px ;
+    text-align: center;
+}
+
