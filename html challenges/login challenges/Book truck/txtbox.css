@@ -11,7 +11,11 @@
 /* Style the form icons */
 .icon {
   
-  padding: 25px 10px 25px 10px;
+  
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 17px;
+    padding-right: 10px;
   background: white;
   color: lightgreen;
   width: 60px;
