@@ -13,36 +13,38 @@
     <div class="card">
         <h3>Register</h3>
         <div class="container">
+            <form action="" method="POST">
             <label for="" class="textbox">Email Address : </label>
             <div class="input-container">
                
                 <img src="Icon feather-user.png" class="icon"alt="" srcset="">
-                <input class="input-field" type="email"  name="usrnm">
+                <input class="input-field" type="email"  name="usrnm" required>
               </div>
               <label for=""class="textbox" >Password:</label>
           <div class="input-container">
             <img src="Icon material-vpn-key.png"class="icon" alt="" srcset="">
-            <input class="input-field" type="password"  name="psw">
+            <input class="input-field" type="password"  name="psw" required>
           </div>
           <label for=""class="textbox">Re-enter Password:</label>
           <div class="input-container">
            <img src="Icon material-vpn-key.png"class="icon" alt="" srcset="">
-            <input class="input-field" type="password"  name="psw">
+            <input class="input-field" type="password"  name="psw" required>
           </div>
           <label for=""class="textbox">Mobile Number :</label>
           <div class="input-container">
-            <img src="Icon feather-phone.png"class="icon" alt="" srcset="">
-            <input class="input-field" type="tel"  name="psw">
+            <img src="Icon feather-phone.png"class="icon" alt="" srcset="" >
+            <input class="input-field" type="tel"  name="psw " required>
           </div>
 
          <div class="cond">
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="" required>
             <label for="">I agree to the <b>Terms and Condition</b> </label><br>
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="" required>
             <label for="">I agree to the <b >privacy policy</b></label>
             <br>
 
-            <a href="#" class="myButton">Register</a>
+            <button type="submit" class="myButton">Register</button>
+        </form>
          </div>
         </div>
         <footer style="text-align: center;margin-top: 80px;">
