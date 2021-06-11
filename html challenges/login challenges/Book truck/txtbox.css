@@ -30,6 +30,8 @@
  border-left: white;
  border-top-right-radius: 5px;
   border-bottom-right-radius:5px ;
+  text-align:left;
+  font-size: large;
 }
 .input-field:focus
 {
