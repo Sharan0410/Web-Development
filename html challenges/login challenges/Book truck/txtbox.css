@@ -28,6 +28,8 @@
  width: 377.95275591px;
  height: 75.590551181px;
  border-left: white;
+ border-top-right-radius: 5px;
+  border-bottom-right-radius:5px ;
 }
 .input-field:focus
 {
