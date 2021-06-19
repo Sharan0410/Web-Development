@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+.col{
+    float: left;
+    width: 8.33%;
+    border:1px solid yellow;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    .col{
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    body {
+      background-color: red;
+    }
+    .col{
+        width: 25%;
+    }
+  }
+  @media only screen and (max-width: 180px) {
+    body {
+      background-color: lightblue;
+    }
+    .col{
+        width: 100%;
+    }
+  }
+  
