@@ -4,6 +4,7 @@ body{
 body{
     margin: 0;
     padding: 0;
+    background-color: #EBEDED;
     
 }.bg-div
 {
@@ -210,4 +211,204 @@ font-family: Acumin Pro,Regular;
     left: 940px;
     color: #A6ADB4;
     margin: 0px;
+  }
+
+  .row2{
+      background-color: #EBEDED;
+      
+    width: 1267px;
+    height: 500px;
+
+     
+    padding-left: 140px;
+  
+    padding-right: 220px;
+
+
+    padding-top: 40px;
+
+  }
+
+  .row2 h3
+  {
+      
+    width: 1025px;
+    height: 42px;
+    
+    
+
+    padding-right: 306px;
+    font-family:  Helvetica, Bold;
+    font-size: 24px;
+  }
+
+  
+  
+  /* Float four columns side by side */
+  .column-2 {
+    float: left;
+    width: 33.3%;
+    
+    
+
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  
+  
+  /* Clear floats after the columns */
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+    background-color: #f1f1f1;
+    width: 360px;
+    height: 360px;
+  }
+
+  .card h2{
+      width: 280px;
+      height: 16px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: Helvetica,Bold;
+      font-size: 24px;
+  }
+
+  .card p{
+   width: 280px;
+   height: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font: normal normal normal 13px/23px Acumin Pro;
+letter-spacing: 0px;
+color: #A6ADB4;
+}
+
+.card h6{
+  width: 43px;
+  height: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #A6ADB4;
+}
+.row3{
+    width: 1600px;
+    height: 1000px;
+    
+    background-color: #EBEDED;
+}
+
+.row3 h3{
+    
+    padding-left: 140px;
+    width: 770px;
+    height: 60px;
+    font: normal normal bold 24px/20px Helvetica;
+    letter-spacing: 0px;
+    color: #202124;
+    opacity: 1;
+}
+.colhappen1{
+    width: 960px;
+    height: 1000px;
+    
+}
+.row3 .image1col{
+    width: 760px;
+    height: 430px;
+    background-image: url(Bridge.png);
+    margin-left: 140px;
+    color: #FFFFFF;
+}
+
+.image1col h6{
+    width: 690px;
+    height: 16px;
+    padding-left: 40px;padding-top: 40px;padding-bottom: 40px;padding-right: 30px;
+    font: normal normal bold 16px Helvetica;
+}
+
+.image1col h3{
+    width: 680px;
+height: 24px;
+
+padding-left: 40px;
+padding-top: 100px;
+font: normal normal bold 24px/34px Helvetica;
+color: #FFFFFF;
+}
+
+.image1col p
+
+{
+    width: 680px;
+height: 42px;
+font: normal normal normal 16px/26px Helvetica;
+padding-left: 40px;
+}
+
+.image1col h5{
+    font: oblique normal normal 13px/26px Helvetica;
+
+color: #CBD0D3;
+padding-left: 40px;
+}
+.row3 .image2col{
+    width: 760px;
+    height: 430px;
+    background-image: url(road.png);
+    margin-left: 140px;
+    color: #FFFFFF;
+}
+
+.image2col h6{
+    width: 690px;
+    height: 16px;
+    padding-left: 40px;padding-top: 40px;padding-bottom: 40px;padding-right: 30px;
+    font: normal normal bold 16px Helvetica;
+}
+
+.image2col h3{
+    width: 680px;
+height: 24px;
+
+padding-left: 40px;
+padding-top: 100px;
+font: normal normal bold 24px/34px Helvetica;
+color: #FFFFFF;
+}
+
+.image2col p
+
+{
+    width: 680px;
+height: 42px;
+font: normal normal normal 16px/26px Helvetica;
+padding-left: 40px;
+}
+
+.image2col h5{
+    font: oblique normal normal 13px/26px Helvetica;
+
+color: #CBD0D3;
+padding-left: 40px;
+}
+
+
+
+
+.columns {
+    float: right;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowsp::after {
+    content: "";
+    clear: both;
+    display: table;
   }
