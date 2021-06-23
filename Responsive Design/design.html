@@ -4,105 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
     <link rel="stylesheet" href="style.css">
-    <title>Pics</title>
 </head>
 <body>
-    <!-- Navigation -->
-    <div class="bg-div">
-       
-        <nav>
-            <h4 class="logo-img">LOGO</h4>
-            <ul id="tags">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Discovery</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Contact</a></li>
-                <img src="user.jpg" alt="" srcset=""class="profile">
-            </ul>
-            
-                
-        </nav>
+    <!--Navigation-->
+    <div class="navbar">
+          <div class="logo">
+              <h4>LOGO</h4>
+
+          </div>
+          <nav>
+              <ul>
+                  <li>HOME </li>
+                  <li>DISCOVERY</li>
+                  <li>PHOTOS</li>
+                  <li>CONTACT</li>
+                  
+              </ul>
+          </nav>
+          
     </div>
-     <div class="row">
-       <div class="col-1">
-           <div class="detail">
-               <h3>WORLD NEWS</h3>
-               <hr>
-               <h4>Amazing places in America to visit.</h4>
-               <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
-               <button>Learn More</button> 
+
+    <section id="header">
+        <div class="header-left">
+            <h4 style="padding-bottom: 40px;">WORLD NEWS</h4>
+            <hr>
+            <h4>Amazing places in America to visit.</h4>
+            <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you are living a majority of your life in.</p>
+            <button class="read-btn">Read More</button>
+        </div>
+        <div class="header-right">
+            <h4>MORE NEWS</h4>
+            <hr>
+            <div class="sub-text">
+                <h4>Travel</h4>
+                <h5>Article title</h5>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <h3>2m ago</h3>
             </div>
+            <div class="sub-text">
+                <h4>Technology</h4>
+                <h5>Article title</h5>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <h3>2m ago</h3>
+            </div>
+        </div>
+    </section>
+    <section id="trends">
+       <div class="word">
+           <h4 style="padding-left: 15px;">
+               TRENDING
+           </h4>
+
        </div>
-       <div class="col-2">
-           <div class="news">
-               <h3>MORE NEWS</h3>
-               <hr>
-               <h4>Travel</h4>
-               <h3>Article title</h3>
-               <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-               <h6>@ 2 hours ago</h6>
-               <h4>Technology</h4>
-               <h3>Article title</h3>
-               <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-               <h6>@ 2 hours ago</h6>
+       <div class="flex-container">
+        <div class="flex-card">
+        <img src="waterfall.png" alt="">
+        <h4>Dolore magna aliqua</h4>
+        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+        <h3>2m ago</h3>
+        </div>
+        <div class="flex-card">
+            <img src="annie-spratt-216507-unsplash.png" alt="">
+        <h4>Morbi eleifend a libero</h4>
+        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+        <h3>2m ago</h3>
+        </div>
+        <div class="flex-card">
+            <img src="carlos-hevia-628890-unsplash.png" alt="">
+            <h4>Morbi eleifend a libero</h4>
+            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+            <h3>2m ago</h3>
+        </div>  
+      </div>
+    </section>
+   <section id="happening">
+    <div class="word">
+        <h4>
+            HAPPENING NOW
+        </h4>
+
+    </div>
+    <div class="happen-left">
+        <div class="happen-left-col1">
+            <h4>CITY</h4>
+            <div class="text">
+                <h3>Large article title</h3>
+            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+            </div>
+            <small>2m ago</small>
+        </div>
+        <div class="happen-left-col2">
+            <h4>TECHNOLOGY</h4>
+            <div class="text">
+                <h3>Large article title</h3>
+            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+            </div>
+            <small>2m ago</small>
+        </div>
+    </div>
+    <div class="happen-right">
+        <div class="happen-right-col">
+            <img src="161975_1024x768.png" alt="">
+            <h5>Small title</h5>
+            <h6>3h ago by Worldnews</h6>
+        </div>
+        <div class="happen-right-col">
+            <img src="roberto-nickson-g-744100-unsplash.png" alt="">
+            <h5>Small title</h5>
+            <h6>3h ago by Days</h6>
+        </div>
+        <div class="happen-right-col">
+            <img src="tom-mussak-108425-unsplash.png" alt="">
+            <h5>Small title</h5>
+            <h6>3h ago by Monica</h6>
+        </div>
+    </div>
+   </section>
+   <section id="footer">
+       <div class="logo1">
+           <h4>LOGO</h4>
+       </div>
+       <div class="link">
+           <div class="sub-link">
+               <small>Home</small><br>
+               <small>Discovery</small><br>
+               <small>Photos</small><br>
+               <small>Contact</small>
            </div>
+           <div class="sub-link">
+            <small>About</small><br>
+            <small>Help</small><br>
+            <small>Terms</small><br>
+            <small>GuideLines</small>
+        </div>
+        <div class="sub-link">
+            <small>Testimonials</small><br>
+            <small>Advertise</small><br>
+            <small>Integrations</small><br>
+            <small>Careers</small>
+        </div>
        </div>
-   </div>
-   <div class="row2">
-       <h3>TRENDING</h3>
-       <div class="column-2">
-        <div class="card">
-            <img src="waterfall.png" alt="waterfall" srcset="">
-            <h2>Dolore magna aliqua</h2>
-                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                <H6> 2m ago</H6>
-        </div>
-      </div>
-    
-      <div class="column-2">
-        <div class="card">
-            <img src="annie-spratt-216507-unsplash.png" alt="b" srcset="">
-            <h2>Morbi eleifend a libero</h2>
-                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                <H6> 1hr ago</H6>
-        </div>
-      </div>
-      
-      <div class="column-2">
-        <div class="card">
-            <img src="carlos-hevia-628890-unsplash.png" alt="db" srcset="">
-            <h2>Morbi eleifend a libero</h2>
-                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                <H6> 1hr ago</H6>
-        </div>
-      </div>
-    
-   </div>
-   <div class="row3">
-       <h3>HAPPENING NOW</h3>
-       <div class="colhappen1">
-        <div class="image1col">
-            <h6>CITY</h6>
-            <h3>Large article title</h3>
-            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
-            <H5> 1hr ago</H5>
-            
-        </div>
-        <div class="image2col">
-            <h6>TRAVEL</h6>
-            <h3>Large article title</h3>
-            <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
-            <H5> 1hr ago</H5>
-        </div>
-        
+
+       <div class="text-field">
+           <input type="email" name="" id="" placeholder="Email"><br>
+           <small>Stay in touch with us for the freshest products!</small>
        </div>
-       
-  
-      
-      
-      
-      
-     
+       <div class="social-icons">
+           <img src="facebook.png" alt="">
+           <img src="instagram.png" alt="">
+           <img src="linkedin.png" alt="">
+           <img src="twitter.png" alt="">
+       </div>
+   </section>
 </body>
 </html>
