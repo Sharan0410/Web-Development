@@ -519,3 +519,13 @@ padding-top: 15px;
       height: 20px;
       padding-right: 20px;
   }
+
+
+  @media only screen and (max-width:770px)   {
+      #footer
+      {
+          flex-basis: 100%;
+          margin-top: 1000px;
+          height: 500px;
+      }
+  }
