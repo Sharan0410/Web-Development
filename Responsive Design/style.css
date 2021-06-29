@@ -522,6 +522,11 @@ padding-top: 15px;
 
 
   @media only screen and (max-width:770px)   {
+   body{
+       width: 768px;
+       height: 2400px;
+   }
+
       #footer
       {
           flex-basis: 100%;
