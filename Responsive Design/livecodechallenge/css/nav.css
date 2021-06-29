@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  
+   padding-top: 12px;
+   margin-left: 219px;
+   margin-right: 219px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+nav h4{
+  
+   width: 100px;
+  
+   margin-right: 600px;
+
+ }
+ 
+
+.nav-container{
+    float: right;
+    display: flex;
+    
+}
+
+.nav-container small{
+ padding-right: 12px;
+}
+
+@media only screen and (max-width:1024px)
+{
+    
+nav{
+  
+    padding-top: 12px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ 
+ nav h4{
+   
+    width: 100px;
+   
+    margin-right: 450px;
+ 
+  }
+  
+ 
+ .nav-container{
+     float: right;
+     display: flex;
+     
+ }
+ 
+ .nav-container small{
+  padding-right: 12px;
+ }
+ 
+}
+
+@media only screen and (max-width:768px)
+{
+    
+nav{
+  
+    padding-top: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+ }
+ 
+ 
+ nav h4{
+   
+    width: 100px;
+   
+    margin-right: 300px;
+ 
+  }
+  
+ 
+ .nav-container{
+     float: right;
+     display: flex;
+     
+ }
+ 
+ .nav-container small{
+  padding-right: 12px;
+ }
+ 
+}
+
+@media only screen and (max-width:360px)
+{
+    
+nav{
+  
+    padding-top: 12px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+ }
+ 
+ 
+ nav h4{
+   
+    width: 100px;
+   
+    margin-right: 50px;
+ 
+  }
+  
+ 
+ .nav-container{
+     float: right;
+     display: flex;
+     
+ }
+ 
+ .nav-container small{
+  padding-right: 12px;
+ }
+ 
+}
