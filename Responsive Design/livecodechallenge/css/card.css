@@ -125,7 +125,7 @@ margin-left: 60px;
     .header-left
     {
        background-color:silver;
-        height:500px;
+       height: 100%;
         padding-left: 50px;
        padding-top: 50px;
         line-height: 25px;
@@ -135,10 +135,13 @@ margin-left: 60px;
     .header-right
     {
       
-        height:500px;
+        height: 100%;
         padding-left: 50px;
        padding-top: 50px;
         line-height: 25px;
+        display: flex;
+         
+          flex-direction: column;
     }
     @media only screen and (max-width:768px)
     {
@@ -165,11 +168,14 @@ margin-left: 60px;
         
         .header-right
         {
-          float: left;
+          
             height:250px;
             padding-left: 50px;
            padding-top: 50px;
             line-height: 25px;
+            display: flex;
+          
+            flex-direction: row;
         }
     }
 
@@ -193,6 +199,7 @@ margin-left: 60px;
             padding-left: 25px;
            padding-top:100px;
             line-height: 25px;
+
         }
          
         
@@ -203,5 +210,8 @@ margin-left: 60px;
             padding-left: 25px;
            padding-top: 50px;
             line-height: 25px;
+            display: flex;
+          
+            flex-direction: row;
         }
     }
