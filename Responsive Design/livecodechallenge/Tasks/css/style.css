@@ -27,6 +27,7 @@
     border: 1px solid black;
     text-align: center;
     padding-top: 200px;
+    
     }
 .text {
     padding-left: 120px;
@@ -64,6 +65,12 @@
         height: 300px;
         
         padding-top: 150px;
+    }
+    .footer{
+        height: 75px;
+        text-align: center;
+        padding-top: 37px;
+        border: 1px solid black;
     }
     
     .text
@@ -103,6 +110,12 @@
     padding-top: 15px;
     height: 100%;
    }
+   .footer{
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    border: 1px solid black;
+}
 }
 
 
@@ -134,5 +147,12 @@
     padding-top: 10px;
     height: 100%;
    } 
+
+   .footer{
+    height: 25px;
+    text-align: center;
+    padding-top: 12px;
+    border: 1px solid black;
+}
 }
 
