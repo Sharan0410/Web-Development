@@ -10,23 +10,20 @@ nav{
    margin-right: 219px;
    display: flex;
    flex-wrap: wrap;
+  
 }
 
 
 nav h4{
   
    width: 100px;
-  
    margin-right: 600px;
+  
+
 
  }
  
 
-.nav-container{
-    float: right;
-    display: flex;
-    
-}
 
 .nav-container small{
  padding-right: 12px;
@@ -48,8 +45,8 @@ nav{
  nav h4{
    
     width: 100px;
-   
-    margin-right: 450px;
+   margin-right: 450px;
+    
  
   }
   
@@ -82,9 +79,7 @@ nav{
  nav h4{
    
     width: 100px;
-   
-    margin-right: 300px;
- 
+     margin-right: 300px;
   }
   
  
@@ -103,33 +98,34 @@ nav{
 @media only screen and (max-width:360px)
 {
     
-nav{
+ nav{
   
     padding-top: 12px;
    
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
- }
+    margin-left: 25px;
+    margin-right: 25px;
+  }
  
  
  nav h4{
    
     width: 100px;
    
-    margin-right: 50px;
+    margin-right: 90px;
  
   }
   
  
- .nav-container{
-     float: right;
+ /* .nav-container{
+     
      display: flex;
      
- }
+ } */
  
  .nav-container small{
-  padding-right: 12px;
+  padding-right: 5px;
  }
  
 }
