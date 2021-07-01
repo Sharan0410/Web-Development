@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 500px;
+}
+
+.grid-left{
+    text-align: center;
+    
+    padding-top: 250px;
+color: white;
+}
+
+.grid-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.grid-right{
+    display: flex;
+    flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+
+.card{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    background-color: silver;
+    color: white;
+    padding-top: 10px;
+} 
+
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 500px;
+
+    }
+    
+    .grid-left{
+        text-align: center;
+        
+        padding-top: 100px;
+    
+    }
+
+    .grid-right{
+        display: flex;
+        flex-direction: row;
+      padding-top: 50px;
+      justify-content: space-around;
+      padding-left: 25px;
+    }
+    
+    .card{
+        width: 150px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+        
+    } 
+
+    .deck-1 {
+        visibility: hidden;
+    }
+
+    .deck-3 {
+        visibility: hidden;
+    }
+}
+
+
+@media only screen and (max-width:360px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 500px;
+
+    }
+    
+    .grid-left{
+        text-align: center;
+        
+        padding-top: 100px;
+    
+    }
+
+    .grid-right{
+        display: flex;
+        flex-direction: row;
+      padding-top: 50px;
+      padding-left: 10px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 150px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 6px;
+        text-align: center;
+        
+    } 
+}
