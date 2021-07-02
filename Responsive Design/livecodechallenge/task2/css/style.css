@@ -3,6 +3,10 @@
     padding: 0;
     
 }
+h6{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
 body{
     background-color: black;
 }
