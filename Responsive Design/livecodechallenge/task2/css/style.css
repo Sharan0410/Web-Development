@@ -13,22 +13,27 @@ body{
 }
 
 .grid-left{
-    text-align: center;
+    
     
     padding-top: 250px;
-color: white;
+    color: white;
 
 }
-.grid-left h6{
-    margin-left: 30px;
+.grid-left-card{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left: 250px;
 }
+    
+
 .img{
     width: 75px;
     height: 75px;
     border-radius: 50%;
     background-color: white;
-    text-align: center;
-    margin-left: 480px;
+    margin-left: 60px;
+   
 }
 .grid-right{
     display: flex;
@@ -96,14 +101,7 @@ margin-left: 5px;
 }
 
 @media only screen and (max-width:1024px){
-    .img{
-        width: 75px;
-        height: 75px;
-        border-radius: 50%;
-        background-color: white;
-        text-align: center;
-        margin-left: 330px;
-    } 
+    
     .grid-right{
         display: flex;
         flex-direction: column;
@@ -126,18 +124,16 @@ margin-left: 5px;
         padding-top: 200px;
     
     }
-    .img{
-        
-        margin-left: 200px;
-    }
-
-    .grid-left h6{
-        margin-left: 10px;
+    .grid-left-card{
+        width: 200px;
+        height: 150px;
+        text-align: center;
+        margin-left: 150px;
     }
     .grid-right{
         display: flex;
         flex-direction: column;
-      padding-top: 50px;
+      padding-top: 25px;
      
       padding-left: 0;
     }
@@ -184,12 +180,11 @@ margin-left: 5px;
         padding-top: 100px;
     
     }
-    .img{
-        
-        margin-left: 140px;
-    }
-    .grid-left h6{
-       
+    .grid-left-card{
+        width: 200px;
+        height: 150px;
+        text-align: center;
+        margin-left: 75px;
     }
     .grid-right{
         display: flex;
