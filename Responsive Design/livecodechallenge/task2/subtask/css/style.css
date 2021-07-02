@@ -1,0 +1,33 @@
+.flex-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media only  screen and (max-width:360px) {
+    .flex-data{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 10px;
+        align-content: center;
+    }
+    
+    .card{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        border: 1px solid black;
+        border-radius: 5px;
+      
+    }
+}
