@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.header-left{
+    height: 700px;
+    background-color: #954FCA;
+}
+
+.header-right{
+    display: flex   ;
+    flex-direction: column;
+    padding-left: 24px;
+    height: 700px;
+    background-color: #43CED5;
+    justify-content: space-between;
+    align-content: space-around;
+
+}
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: #EFB490;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 25px;
+}
+.deck-1{
+    background-color: #65E79B;
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+}
+.deck-2{
+    background-color: #65E79B;
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+}
+.deck-3{
+    background-color: #65E79B;
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+}
+.mini-circle
+{
+margin-top: 5px;
+margin-left: 3px;
+width: 15px;
+height: 15px;
+background-color: black;
+border-radius: 50%;
+}
+
+@media only screen and (max-width:768px){
+    .header{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .header-left{
+        height: 700px;
+        background-color: #954FCA;
+    }
+    
+    .header-right{
+        height: 700px;
+        background-color: #43CED5;
+        padding-left: 15px;
+        align-content: space-around;
+    }
+    .card{
+        width: 350px;
+        height: 150px;
+        background-color: #EFB490;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .deck-1
+    {
+        visibility: hidden;
+    }
+    .deck-2{
+        width: 60px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .deck-3
+    {
+        visibility: hidden;
+    }
+    .mini-circle
+{
+margin-top: 5px;
+margin-left: 3px;
+width: 10px;
+height: 10px;
+background-color: black;
+border-radius: 50%;
+}
+
+}
+
+@media only screen and (max-width:360px){
+    .header{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .header-left{
+        height: 500px;
+        background-color: #954FCA;
+    }
+    
+    .header-right{
+       flex-wrap: wrap;
+       flex-direction: row;
+        height: 700px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #43CED5;
+    }
+    .card{
+        width: 150px;
+        height: 150px;
+        background-color: #EFB490;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .deck-1
+    {
+        visibility: hidden;
+    }
+    .deck-2{
+        width: 60px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    .deck-3
+    {
+        visibility: hidden;
+    }
+}
