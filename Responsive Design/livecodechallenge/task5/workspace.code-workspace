@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\html challenges\\login challenges\\responsive"
+		},
+		{
+			"path": "..\\..\\..\\Jquery"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Responsive Design"
+	}
+}

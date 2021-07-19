@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.border
+{
+    width: 68%;
+    margin: 0 0 0 16%;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+
+.name{
+    height: 10%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-size: 32px;
+}
+.designation
+{
+    display: flex;
+    
+    height: 40%;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 82px;
+    letter-spacing: 12px;
+}
+
+.description
+{
+    height: 40%;
+    background-color: brown;
+    text-align: center;
+}
+
+
+
+@media  only screen and (max-width:827px)
+{
+    .border{
+        width: 100%;
+        border:none;
+        margin: 0;
+    }
+    
+    .designation{
+        font-size: 64px;
+        letter-spacing: 9px;
+    }
+
+}
+
+@media  only screen and (max-width:427px)
+{
+    .border{
+        width: 100%;
+        border:none;
+        margin: 0;
+    }
+    
+    .designation{
+        font-size: 48px;
+        letter-spacing: 6px;
+    }
+
+}

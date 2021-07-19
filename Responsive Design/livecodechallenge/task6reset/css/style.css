@@ -6,12 +6,19 @@
     width: 100%;
     height: 100%;
 }
-
-.mainpage{
+.border
+{   
     width: 68%;
     margin: 0 0 0 16%;
+  border-left: 1px solid #707070;
+  border-right: 1px solid #707070;
+}
+.mainpage{
+    
    display: grid;
    grid-template-rows: 10% 80% 10%;
+ 
+   
 }
 
 
@@ -21,7 +28,7 @@
 align-items: center;
 justify-content: center;
 font-size: 32px;
-font-family: "Nexa Bold",Bold;
+font-family: "Nexa",Black;
 }
 
 .body{
@@ -40,24 +47,49 @@ font-family: "Nexa Bold",Bold;
 .desc{
     display: flex;
     justify-content: center;
+    font-family: "Montserrat",Regular;
+    color: #B2B2B2;
 }
-.footer{
-    
-    display: flex;
-   justify-content: center;
-}
-
 img{
     width: 45px;
     height: 45px;
-    padding: 0 0 0 48%;
+   
 }
-.footercontent{
-    display: flex;
+footer 
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+  }
+
+  .footer-left
+  {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  .footer-right
+  {
+      display: grid;
+      grid-template-rows: 50% 50%;
+  }
+  
+  .first{
+      display: flex;
+      align-items: flex-end;
+      font-family: "Montserrat",Light;
+      font-size: 15px;
+  }
+.second{
+    font-size: 15px;
+    font-family: "Montserrat",Regular;
+    
 }
+
 @media  only screen and (max-width:827px)
 {
-    .mainpage
+    .border
     {
        width: 100%;
        margin: 0;
@@ -67,13 +99,37 @@ img{
         font-size: 64px;
         letter-spacing: 9px;
     }
+
+    img{
+        margin:  0 0 0 30%;
+    }
 }
 
 @media  only screen and (max-width:427px)
 {
+    .border{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .mainpage{
+        height: 100%;
+        margin: 0;
+    }
     .des{
         font-size: 48px;
         letter-spacing: 6px;
         text-align: center;
+    }
+    .desc
+    {
+        font-size: 13px;
+    }
+    img{
+        margin:  0 0 0 20%;
+
+    }
+    footer{
+        align-items: flex-end;
     }
 }
