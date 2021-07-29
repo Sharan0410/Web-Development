@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;   /* changes background-color to black */
+}
+.header{
+    display: flex;
+    justify-content: center;    /* content to center */
+    height: 17%;
+}
+
+.name{
+   
+    margin: 50px 0 0 0;  /*margin for top 50px*/
+   color: white;
+   font-size: 32px;
+   text-align: center;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;/*text to center*/
+    flex-direction: column;/*change row to column*/
+    height: 63%;
+}
+
+
+.designation{
+    
+    font-size: 49px;
+    letter-spacing: 7px;
+    color: white;
+    text-align: center;/*centering the text*/
+}
+.description
+{
+    
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 0;/*Spacing between two class*/
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+}
+.square
+{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    margin: 0 0 50px 0;
+}
+.secondtext{
+    
+    margin: 0 0 50px 0;
+    font-size: 10px;
+    color: white;
+
+}
+
+.subtext{
+    font-size: 18px;
+    color: white;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 17%;
+}
+
+.name{
+    width: 287px;
+    height: 39px;
+    margin: 50px 0 0 0;
+    background-color: white;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63%;
+}
+
+
+.designation{
+    width: 360px;
+    height: 113px;
+    background-color: white;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+}
+
+.secondtext{
+    width: 199px;
+    height: 55px;
+    margin: 0 0 34px 0;
+    background-color: white;
+}

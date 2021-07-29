@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.mainpage{
+width: 68%;
+margin: 0 0 0 16%;
+border-left: 1px solid #707070;
+border-right: 1px solid #707070;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+.name{
+    width: 287px;
+    height: 39px;
+    font-size: 32px;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40%;
+}
+.desc{
+    width: 879px;
+    height: 60px;
+    font-size: 82px;
+    letter-spacing: 12px;
+}
+.description{
+
+  
+    height: 40%;
+}
+
+.footer{
+    
+    
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    width: 199px;
+    height: 45px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:827px){
+    .mainpage{
+        width: 100%;
+        margin: 0;
+    }
+    .des{
+        width: 686px;
+        height: 77px;
+        font-size: 64px;
+        letter-spacing: 9px;
+    }
+}
+
+
+@media only screen and (max-width:427px){
+    .mainpage{
+        width: 100%;
+        margin: 0;
+    }
+
+    .des{
+        width: 364px;
+        height: 118px;
+        font-size: 49px;
+        letter-spacing: 7px;
+    }
+}

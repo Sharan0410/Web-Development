@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mainpage{
+    width: 68%;
+    margin: 0 0 0 16%;
+    background-color: black;
+}
+
+.title
+{
+    text-align: center;
+    height: 20%;
+}
+
+.name{
+    background-color: white;
+    width: 66%;
+    height: 40%;
+}

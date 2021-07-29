@@ -67,6 +67,7 @@ footer
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      
   }
   
   .footer-right
@@ -80,6 +81,7 @@ footer
       align-items: flex-end;
       font-family: "Montserrat",Light;
       font-size: 15px;
+      
   }
 .second{
     font-size: 15px;

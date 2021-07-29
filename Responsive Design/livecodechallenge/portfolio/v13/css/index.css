@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 17%;
+}
+
+.name{
+    width: 287px;
+    height: 39px;
+    margin: 50px 0 0 0;
+   color: white;
+   font-size: 32px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63%;
+}
+
+
+.designation{
+    width: 364px;
+    height: 118px;
+    font-size: 49px;
+    letter-spacing: 7px;
+    color: white;
+}
+.description
+{
+    width: 256px;
+    height: 11px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: white;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+}
+.square
+{
+    width: 45px;
+    height: 45px;
+}
+.secondtext{
+    width: 199px;
+    height: 55px;
+    margin: 0 0 50px 0;
+    font-size: 10px;
+    color: white;
+
+}
+
+.subtext{
+    font-size: 18px;
+    color: white;
+}
