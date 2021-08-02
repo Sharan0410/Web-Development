@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg
+{
+    background-color: red;
+    
+    height: 100%;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.button
+{
+    width: 50px;
+    height: 50px;
+    margin: 3.5px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #607d8b;
+    border: none;
+    color: white
+}
+
+#data
+{
+    width: 217px;
+    height: 50px;
+    font-size: 25px;
+    margin: 5px;
+   padding: 5px;
+   border: none;
+   color: #607d8b;
+   background-color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="css\index.css">
+    <script src="js/index.js"></script>
+</head>
+<body class="bg">
+    
+    <div class="main">
+        <form name="form" id="form-data">
+            <input type="text" name="textview" class="text">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" class="button" value="C"  onclick="clean()"></td>
+                <td><input type="button" class="button" value="<" onclick="back()"></td>
+                <td><input type="button" class="button" value="/" onclick="send('/')"></td>
+                <td><input type="button" class="button" value="x" onclick="send('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="9" onclick="send(9)"></td>
+                <td><input type="button" class="button" value="8"onclick="send(8)"></td>
+                <td><input type="button" class="button" value="7" onclick="send(7)"></td>
+                <td><input type="button" class="button" value="-" onclick="send('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button"  class="button" value="6" onclick="send(6)"></td>
+                <td><input type="button" class="button" value="5" onclick="send(5)"></td>
+                <td><input type="button" class="button"  value="4" onclick="send(4)"></td>
+                <td><input type="button" class="button" value="+" onclick="send('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="button" value="3"  onclick="send(3)" ></td>
+                <td><input type="button" class="button" value="2"  onclick="send(2)"></td>
+                <td><input type="button"  class="button"value="1"  onclick="send(1)"></td>
+                <td rowspan="5"><input type="button" class="button" style="height: 104px;"value="=" onclick="equal()"></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><input type="button" class="button" style="width: 106px;" value="0"  onclick="send(0)"></td>
+                <td ><input type="button" class="button"  value="."  onclick="send('.')"></td>
+                
+            </tr>
+           
+        </table>
+
+    </div>
+    
+</body>
+</html>
