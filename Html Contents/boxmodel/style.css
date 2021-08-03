@@ -1,0 +1,60 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    margin-bottom: 2px;
+    float: left;
+    box-sizing: content-box;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    /* box-sizing: border-box; */
+    float: right;
+    box-sizing: border-box;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    margin-bottom: 2px;
+    float: left;
+    box-sizing: initial;
+}
+
+#div4{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    /* box-sizing: border-box; */
+    float: right;
+    box-sizing: inherit;
+
+}
+
+#div5{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    margin-bottom: 2px;
+    float: left;
+    box-sizing: unset;
+}
+
+#div6{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid #43af45;
+    /* box-sizing: border-box; */
+    float: right;
+    box-sizing: revert;
+}

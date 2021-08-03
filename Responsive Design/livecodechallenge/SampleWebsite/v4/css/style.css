@@ -2,27 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+  font-size: 62.5%;
 }
 
 a{
     font-weight: 400;
     font-size: 1.6rem;
 }
-
+h1,h2,p{
+    margin: 1.6rem 0;
+}
 h1
 {
     font-weight: 800;
     font-size: 3.6rem;
-    margin: 1.6rem 0;
-    background-color: red;
+   
 }
 
 h2
 {
 font-weight: 800;
 font-size: 2.4rem;
-margin: 1.6rem 0;
+
+}
+ 
+p{
+    font-weight: 400;
+    font-size: 1.8rem;
+
 }
 
 img{
@@ -39,10 +46,13 @@ img{
     align-items: center;
     margin: auto;
    
-  
 
 }
-
+.logo h1{
+    font-size: 3.2rem;
+    color: #4ca750;
+    margin: 0;
+}
 section{
     padding: 100px 0;
 }
@@ -55,25 +65,15 @@ header
     background-size: cover;
     background-position: center;
 }
-.logo
-{
-    background-color: red;
-    width: 20%;
-    height: 50px;
-}
-.logo h1
-{
-    background-color: sandybrown;
-    
-    margin: 0;
-}
+
+
 
 nav
 {
     padding: 2% 8%;
     display: flex;
     justify-content: space-between;
-    background-color: slateblue;
+    
 }
 nav ul {
     list-style-type: none;
@@ -81,18 +81,64 @@ nav ul {
 nav ul li{
     display: inline-block;
     margin-left: 2.5rem;
-    background-color: red;
+   
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li :hover{
+    color: #4caf50;
+    transition: 0.5s ease-in-out;
+}
+i{
+   color: white;
+   visibility: hidden;
+}
 .header-content{
     width: 50%;
     position: relative;
     top:16%;
     left: 8%;
-    background-color: saddlebrown;
-    height: 60%;
+
+    color: whitesmoke;
+}
+form{
+    margin:2.4rem 0;
+}
+input{
+    font-size: 1.8rem;
+}
+input[type=text],input[type=email]
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin:1.2rem 0;
+    display: block;
+    border: 1px solid #ccc;
 }
 
+
+
+input[type=submit]
+{
+    width:50%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input::placeholder{
+    font-size: 1.3rem;
+    color:#ccc
+}
 .about-left,.about-middle,.about-right
 {
     flex-basis: 30%;
@@ -200,17 +246,50 @@ footer
 }
 
 @media only screen and (max-width:800px)
-{
+{nav{
+    flex-direction: column;
+    position: relative;
+}
+i{
+    
+    visibility: visible;
+    position:absolute;
+    top: 18px;
+    left: 32px;
+    margin: 0 0 0 70%;
+}
+    nav ul {
+        background: white;
+        display: none;
+    }
+    .showmenu{
+        display: block;
+    }
+    nav ul li{
+        display: block;
+        padding: 2% 0;
+    }
+    nav ul li a{
+        color: #222;
+    }
     .row{
         flex-direction: column;
     }
     .logo{
-        height: 50px;
+        height: 10%;
         width: 30%;
     }
 .header-content{
+    width: 100%;
+    top:16%;
+    left:0;
+    text-align: center;
+    padding: 0 8px;
+}
+input[type=text],input[type=email],input[type=submit]
+{
     width: 80%;
-
+    margin: 1.2rem auto;
 }
 .about-left,.about-middle,.about-right
 {
@@ -220,12 +299,7 @@ footer
     background-color: seagreen;
     
 }
-.about2-right .card
-{
-    
-    /* padding: 10rem 11rem;
-    margin: 10px; */
-}
+
 .box1,.box2,.box3
 {
     width: 80%;
@@ -239,7 +313,7 @@ footer
 @media only screen and(max-width:340px)
 {
 
-     .about2-right {
-        
-    }
+     .header-content{
+         width: 80%;
+     }
 }
