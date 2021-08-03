@@ -372,7 +372,7 @@ input[type=text],input[type=email],input[type=submit]
 .testimony .test{
     padding: 4rem 2rem;
     margin: 1.2rem 0;
-    text-align: center;
+    
 }
 .contact input textarea{
     width: 100%;
