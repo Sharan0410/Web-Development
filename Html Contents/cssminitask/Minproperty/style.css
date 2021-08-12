@@ -1,0 +1,38 @@
+/* .left{
+    float: left;
+    width: 25%;
+    height: 500px;
+    background-color: green;
+    
+}
+
+.right
+{
+    float: right;
+    width: 75%;
+    height: 500px;
+    background-color: greenyellow;
+} */
+
+
+div
+{
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    
+}
+
+.one{
+    background-color: indianred;
+}
+
+.two
+{
+    background-color: lawngreen;
+}
+
+.three
+{
+    background-color: darkred;
+}

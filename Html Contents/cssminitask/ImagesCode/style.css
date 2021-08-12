@@ -1,0 +1,29 @@
+div
+{
+    
+    width: 300px;
+    height: 300px;
+    color: red;
+}
+
+.big{
+    background-image: url('./img/Dc.jpg');
+    /* background-size: contain; */
+    width: 100%;
+}
+
+.small
+{
+    background-image: url(./img/google.png);
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-repeat: repeat;                  
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-size: cover;
+    background-repeat: round;
+
+}
+

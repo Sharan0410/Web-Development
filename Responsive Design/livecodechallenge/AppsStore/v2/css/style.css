@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700;800&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+body{
+    height: 6394px;
+}
+
+header{
+    height: 16%;
+    background-color: red;
+  
+}
+
+nav{
+    height: 10%;
+    background-color: rosybrown;
+    display: grid;
+   grid-template-columns: 30% 70%;
+}
+.logo{
+    
+    background-color: #8d4e8d;
+  
+   
+    
+}
+.list{
+    background-color: turquoise;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    list-style-type: none;
+    width: 2%;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 8%;
+    
+}
+.img{
+    width: 20%;
+    height: 50%;
+   background-color: white;
+   margin: 5% 10%;
+}
+.header-content{
+    height: 90%;
+    background-color: saddlebrown;
+}
+
+.About{
+    height: 14%;
+    background-color: skyblue;
+}
+
+.Why{
+    height: 18%;
+    background-color: slategray;
+}
+
+.Acheivments{
+    height: 9%;
+    background-color: #fc9dea;
+}
+
+.portfolio{
+    height: 18%;
+    background-color: teal;
+}
+
+.feedback{
+    height: 13%;
+    background-color: darkorchid;
+}
+
+.contact{
+    height: 12%;
+    background-color: darkseagreen;
+}

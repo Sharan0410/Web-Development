@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700;800&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 6444px;
+}
+
+header{
+    height: 14%;
+    background-image: url("../images/Group\ 1757/Group\ 1757.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+nav{
+    height: 10%;
+    
+    display: grid;
+   grid-template-columns: 30% 70%;
+}
+
+.logo-content
+{
+    display: flex;
+    
+ 
+    padding-left: 10%;
+   
+}
+.list{
+ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    list-style-type: none;
+   
+    padding-top: 2.5%;
+   
+    height: 30px;
+   font-size: 22px;
+   font-family: 'Poppins',Medium;
+    color:#FFFFFF;
+}
+.img{
+    width: 50px;
+    height: 50px;
+   
+  padding-top: 4%;
+
+ 
+}
+
+
+.btn
+{
+    color: black;
+    background-color: white;
+    padding: 3.5px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    margin-top: 24px;
+    margin-right: 15px;
+    text-align: center;
+    
+}
+.title
+{
+    width: 217px;
+    height: 50px;
+    font-size: 38px;
+    font-family: 'Roboto',Medium;
+    padding-top: 5%;
+}
+
+.header-content{
+    height: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.header-content-left-center
+{
+    width: 80%;
+    height: 60%;
+   
+}
+.l1{
+   color: white;
+    
+    font-size: 36px;
+    font-family: 'Roboto',Medium;
+    
+    width:92%;
+    height: 25%;
+   
+    text-transform: capitalize;
+}
+
+.l2{
+    
+    width: 94%;
+    height: 25%;
+    
+    font-size: 24px;
+    font-family: 'Roboto',Regular;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.l3
+{
+    width: 60%;
+    height: 25%;
+    display: grid;
+     grid-template-columns: 80% 20%;
+}
+
+
+.btn1{
+    width:200px;
+    height: 57px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto',Medium;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border: none;
+}
+#exp{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto',Medium;
+}
+.header-content-left
+{
+    padding: 10%;
+    
+}
+
+.header-content-right{
+    
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.phone1{
+  
+    padding-top: 30%;
+   
+}
+.phone2
+{
+  margin-top: 10%;
+
+}
+.phone3
+{
+  padding-top: 30%;
+ 
+}
+.img1{
+    background-color: lavenderblush;
+    width: 80%;
+    height: 40%;
+   margin: 30% 0;
+   margin-left: 60%;
+    
+}
+.img2{
+    height: 80%;
+    margin: 10% 0;
+    background-color: lemonchiffon;
+}
+.img3{
+    width: 80%;
+    height: 40%;
+    background-color: red;
+    margin: 30% 0;
+  
+}
+.About{
+    height: 13%;
+    /* background-color: skyblue; */
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.About-left{
+  /* background-color: darkolivegreen; */
+
+}
+.About-right{
+    /* background-color: darksalmon; */
+}
+.a1
+{
+    /* background-color: deepskyblue; */
+    width: 55%;
+    height: 60%;
+    text-align: center;
+    margin-left: 22.5%;
+    font-size: 39px;
+    font-family: 'Poppins',Medium;
+    padding: 2.5%;
+}
+.a2{
+    /* background-color: firebrick; */
+    width: 70%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 15%;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Roboto',Regular;
+    text-align: center;
+}
+
+.About-right-row
+{
+    /* background-color: gainsboro; */
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    display: flex;
+}
+.About-right-card
+{
+    background-color: #F9F9FF;
+    width: 90%;
+    height: 60%;
+    margin: 0 0 0 3%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.About-right-cardcontent
+{
+    width: 90%;
+    margin:  5%;
+    height: 90%;
+    /* background-color: lightblue; */
+    display: grid;
+    grid-template-rows: 45% 25% 30%;
+}
+
+.ar1
+{
+    /* background-color: lightcoral; */
+    font-size: 38px;
+    font-family: 'Roboto',Medium;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.ar2
+{
+    /* background-color: lightgoldenrodyellow; */
+    font-size: 20px;
+    font-family: 'Roboto',Regular;
+    text-transform: capitalize;
+}
+.Why{
+    height: 19%;
+    background-color: slategray;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    width: 78%;
+    margin-left: 11%;
+}
+.Why-left{
+    /* background-color: maroon; */
+}
+.w1{
+    /* background-color: olivedrab; */
+    width: 33%;
+    margin-top: 2.5%;
+    margin-left: 33.5%;
+    height: 40%;
+    font-size: 55px;
+    font-family: 'Poppins',Medium;
+    text-align: center;
+    text-transform: capitalize;
+}
+.w2
+{
+    /* background-color: papayawhip; */
+    width: 68%;
+    margin-left: 16%;
+    height: 40%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Roboto',Regular;
+    text-transform: capitalize;
+}
+.Why-right
+{
+    background-color: mediumorchid;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.wr1
+{
+    background-color: plum;
+
+}
+.wr1 img{
+    /* background-color: rosybrown; */
+    width: 80%;
+    height: 80%;
+    margin: 10% ;
+    padding-left: 5%;
+}
+.wr2
+{
+    background-color: rebeccapurple;
+}
+.wr2-content
+{
+    width: 80%;
+    height: 80%;
+    background-color: fuchsia;
+    margin: 5%;
+    padding:15% 5% ;
+}
+.wr2-txt1
+{
+    width: 45%;
+    height: 20%;
+    background-color: hotpink;
+    font-size: 28px;
+    font-family: 'Poppins',SemiBold;
+}
+.wr2-txt2{
+    height: 15%;
+    background-color: lavender;
+    margin-top: 5%;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'Roboto',Regular;
+}
+.wr2-txt3{
+    height: 5%;
+    background-color: #5F4144;
+    margin-top: 5%;
+    font-size: 24px;
+    font-family:'Roboto',Regular ;
+    text-transform: capitalize;
+}
+.mbtn{
+    width: 35%;
+    height: 5%;
+    margin-top: 5%;
+    border-radius: 16px;
+    border: none;
+}
+.Acheivments{
+    height: 9%;
+    background-color: #fc9dea;
+}
+
+.portfolio{
+    height: 18%;
+    background-color: teal;
+}
+
+.feedback{
+    height: 13%;
+    background-color: darkorchid;
+}
+
+.contact{
+    height: 12%;
+    background-color: darkseagreen;
+}

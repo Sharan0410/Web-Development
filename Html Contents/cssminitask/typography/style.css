@@ -1,0 +1,29 @@
+/* body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Times New Roman';
+} */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&family=WindSong&display=swap');
+
+body
+{
+    font-family:'Andada Pro', serif ;
+}
+
+h1{
+    font-family: 'WindSong', cursive;
+}
+
+p{
+    text-indent: 5rem;
+    /* text-align: right;
+    letter-spacing: 20px; */
+    /* word-spacing: 20px; */
+    /* line-height: 20px; */
+    /* text-transform: capitalize;
+    text-transform: lowercase; */
+    text-transform: uppercase;
+}

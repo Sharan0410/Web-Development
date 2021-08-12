@@ -1,0 +1,48 @@
+.name{
+    
+    height: 500px;
+    background-color: darksalmon;
+    font-size: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:  auto ;
+}
+
+.designation{
+ 
+    height: 500px;
+    background-color: rgb(180, 59, 19);
+    font-size: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    margin:  auto ;
+}
+
+@media screen and (max-width:576px) {
+    .name{
+        height: 250px;
+        background-color: darkseagreen;
+        font-size: 25px;
+
+    }
+
+    .designation{
+        height: 250px;
+        background-color: darkseagreen;
+        font-size: 25px;
+        
+    }
+}
+
+@media screen and (min-width:768px) {
+    .name{
+        height: 50px;
+        background-color: darkslategray;
+        font-size: 10px;
+    }
+    .designation{
+        height: 50px;
+        background-color: darkslategray;
+        font-size: 10px;
+    }
+}

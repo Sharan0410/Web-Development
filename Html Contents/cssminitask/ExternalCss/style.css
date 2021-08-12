@@ -1,0 +1,67 @@
+/* Element Selector */
+
+h1{
+    color: pink;
+    font-size: 3rem;
+}
+
+h2
+{
+    color: aqua;
+   
+}
+
+p{
+    color: darkcyan;
+    font-size: 5rem;
+}
+a{
+    color: rgb(94, 112,32);
+    font-size: 2rem;
+}
+
+
+/* Grouping Selectors */
+h3,h4{
+ color:darkgoldenrod;
+  font-size: 3rem;
+
+}
+
+/* ID selectors */
+#data
+{
+    color: darkgreen;
+}
+
+/* Class Selectors */
+
+.w{
+    background-color: darkgrey;
+    color: white;
+}
+
+.t{
+    background-color: darkblue;
+    color: teal;
+}
+
+.reds{
+    background-color: red;
+    color: violet;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+#center
+{
+ text-align: center;
+}
+
+/* CSS Colors RGB */
+.a{
+    color:rgb(200, 131,78);
+    background-color: rgb(131, 255, 141);
+}

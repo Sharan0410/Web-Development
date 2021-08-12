@@ -1,0 +1,45 @@
+/* h1{
+    font-size: 40px;
+    width: 200px;
+    height: 300px;
+    color: #f2a1e2;
+    background-color: #e1e6a2;
+} */
+/* html{
+    font-size: 32px;
+}
+.outer
+{
+    width: 200px;
+    height: 500px;
+    background-color: #ddaeea;
+}
+.inner{
+    width: 50%;
+    height: 50%;
+    background-color: #213121
+}
+.text
+{
+    font-size: 10px;
+}
+.first
+{
+    font-size: 2rem;
+}
+
+.second{
+    font-size: 64px;
+} */
+
+.data
+{
+    font-size: 32px;
+    background-color: blue;
+    color: white;
+}
+
+.color{
+    min-height: calc(100vh - 100px);
+    background-color: silver;
+}
